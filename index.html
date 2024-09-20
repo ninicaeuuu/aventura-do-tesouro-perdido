@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura do Tesouro Pirata</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+           <img src="cenario-passo0.jpeg" alt="">
+            <p>Em uma ilha esquecida, a lenda do pirata Barba Negra e seu tesouro inestimável aguarda por aventureiros corajosos. Com um mapa enigmático em mãos, você e seu grupo enfrentarão desafios, armadilhas e monstros marinhos em uma busca audaciosa. Prepare-se para testar sua coragem e inteligência, pois essa aventura pode mudar seu destino para sempre!</p>
+            <button class="btn-proximo" data-proximo="1">ir para ilha perdida</button>
+            <button class="btn-proximo" data-proximo="2">permanecer em casa</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="ilha floresta ou ruina.jpg" alt="primeira imagem">
+            <p>Você começa sua jornada na ilha esquecida, onde o aroma de aventura e mistério permeia o ar. Com o mapa do pirata Barba Negra em mãos, você pondera qual será seu primeiro passo: explorar a densa floresta tropical, repleta de sons exóticos, ou investigar as ruínas antigas em busca de pistas? A decisão é sua, e cada escolha pode levá-lo mais perto do tesouro ou a armadilhas perigosas. A aventura está apenas começando!</p>
+            <button class="btn-proximo" data-proximo="3">explorar a floresta tropical</button>
+            <button class="btn-proximo" data-proximo="4">investigar as antigas ruínas</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Ao decidir encerrar sua busca pelo tesouro do pirata Barba Negra, você sente uma mistura de alívio e desânimo. Caminhando em direção à costa, a brisa suave traz lembranças do que poderia ter sido. Embora tenha deixado uma grande oportunidade para trás, você reconhece a sabedoria em sua decisão. Refletindo sobre as lições aprendidas, você embarca no barco que o trouxe à ilha, pronto para novas aventuras. A história do tesouro pode ter terminado, mas sua própria jornada está apenas começando.</p>
+            <button class="btn-proximo" data-proximo="5">continuar a busca</button>
+            <button class="btn-proximo" data-proximo="6">desistir</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="floresta.jpg" alt="">
+            <p>Enquanto você avança pela densa floresta tropical, a luz do sol filtra-se entre as árvores, acompanhada pelo canto de pássaros exóticos. Após alguns minutos, encontra marcas de antigos passos e fragmentos de um objeto enferrujado, indicando que outros estiveram aqui antes em busca do mesmo tesouro. Seu coração acelera ao perceber que está no caminho certo! Continue explorando, pois cada pista pode revelar os segredos que a floresta guarda sobre o tesouro pirata.</p>
+            <button class="btn-proximo" data-proximo="7">subir na copa de uma arvore</button>
+        </div>
+    
+        <div class="passo" id="passo-4">
+            <img src="cenario-4.avif" alt="imagem das ruinas abandonadas e falhando na missao">
+            <p>Você decide que as ruínas não são nada seguras, volte ao início e tente novamente por outro caminho
+            </p>
+        </div>
+    
+        <div class="passo" id="passo-5">
+            <p>Após quase desistir, você retorna à costa da ilha e encontra uma garrafa flutuante que brilha ao sol. Ao abri-la, descobre um mapa enrolado dentro, que parece ter chegado especialmente para você. As marcas indicam um caminho claro para um tesouro escondido, como se o destino estivesse conspirando a seu favor. Com a determinação renovada, você se prepara para seguir as pistas que o levarão ao tesouro pirata. A busca está longe de terminar!</p>
+            <button class="btn-proximo" data-proximo="7">seguir o mapa</button>
+        </div>
+    
+        <div class="passo" id="passo-6">
+            <p>tente novamente, a busca pelo tesouro do Barba Negra não pode acabar assim!</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar a ilha perdida</button>
+        </div>
+    
+        <div class="passo" id="passo-7">
+            <img src="bifurcacao.jpg" alt="dois caminhos">
+            <p>você avista uma deslumbrante queda d'água, suas águas cristalinas despencando em um espetáculo encantador. O som suave da água ecoa pela floresta, criando uma melodia relaxante. Cercada por vegetação exuberante, a queda d'água brilha nas pedras ao seu redor, sugerindo que pode esconder segredos ou tesouros. Essa descoberta pode ser a chave para desvendar os mistérios da sua busca pelo tesouro pirata. O que você fará a seguir?</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+        </div>
+    
+        <div class="passo" id="passo-8">
+            <img src="cenario-mapa.jpg" alt="mapa encontrado na garrafa">
+            <p>De volta às buscas, enquanto explora a área ao redor das aguas do mar, você encontra um pedaço de papel envelhecido entre as pedras. Ao desenrolá-lo, descobre que é um mapa que revela um caminho até a cachoeira. Seu coração acelera ao perceber que esse mapa pode ser a chave para descobrir os segredos que a queda d'água guarda. Anotações feitas à mão indicam armadilhas e recompensas ao longo do percurso. Agora, você está mais próximo do tesouro do pirata.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a cachoeira</button>
+        </div>
+    
+        <div class="passo" id="passo-9">
+            <img src="cachoeira.jpg" alt="cachoeira do tesouro">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada de uma caverna promissora.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a caverna</button>
+        </div>
+    
+        <div class="passo" id="passo-10">
+            <img src="pantano.jpg" alt="caminho pantano">
+            <p>O caminho à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais de tesouro aqui.
+            </p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+    
+        <div class="passo" id="passo-11">]
+            <img src="caverna com tesouros.jpg" alt="premio final">
+            <p>Dentro da caverna, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar este
+                lugar</p>
+                <button class="btn-proximo" data-proximo="13">fim</button>
+        </div>
+    
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o caminho à esquerda, você finalmente encontra a cachoeira e as inscrições que
+                levam à caverna dos tesouros.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a caverna</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="fim.jpg" alt="">
+            <p>Ao final de sua jornada em busca do tesouro pirata, você percebe que o verdadeiro tesouro da vida não está nas riquezas, mas na coragem de seguir em frente e explorar novas possibilidades. Cada desafio superado e descoberta feita são experiências valiosas que moldam sua trajetória. A lição é valorizar o caminho percorrido, pois o verdadeiro tesouro está na jornada e no crescimento que vem com cada experiência.</p>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
